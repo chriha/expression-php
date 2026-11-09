@@ -1,0 +1,30 @@
+# Dependencies (libraries do not commit their lock file)
+/vendor/
+composer.lock
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tooling caches
+.phpunit.cache/
+.phpunit.result.cache
+.php-cs-fixer.cache
+.phpcs.cache
+.rector/
+.phpstan/
+
+# Local environment / secrets
+.env
+.env.*
+auth.json
+
+# Claude Code local config
+.claude/
+.codegraph/
+CLAUDE.local.md

@@ -1,0 +1,6 @@
+parameters:
+    paths:
+        - src/
+
+    # Level 9 is the highest level, 5 is default and should be the goal
+    level: 9
